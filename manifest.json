@@ -2,19 +2,20 @@
     "manifest_version": 3,
     "name": "Timer Extension",
     "version": "1.0",
-    "description": "A simple timer extension for Chrome which helps you to keep focuesed",
+    "description": "A timer extension for Chrome which helps you to keep focuesed",
     "icons": {
         "16":"icon.png",
         "48":"icon.png",
         "128":"icon.png"
     },
-    "permissions": ["activeTab", "storage"],
+    "permissions": ["activeTab","storage","alarms","notifications"],
     "background": {
-        "scripts": ["background.js"]
+        "service_worker": "background.js"
     },
     "action": {
         "default_icon": "icon.png",
         "default_title": "Timer Extension", 
         "default_popup": "popup/popup.html"
-    }
+    },
+     "options_page": "options/options.html"
 }
