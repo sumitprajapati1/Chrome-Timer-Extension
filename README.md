@@ -1,15 +1,15 @@
 # Chrome Timer Extension ⏳
 
-![Extension Logo](C:\Users\LENOVO\Desktop\Chrome-Timer-Extension\icon.png)
-
-A simple yet powerful Chrome extension to boost productivity and help users stay focused by using a task-based timer, similar to the Pomodoro technique.
+Engineered a Chrome Timer 
+Extension with HTML, CSS, and JavaScript, incorporating the 
+Pomodoro technique to enhance productivity. Implemented 
+task management features that enable users to add, delete, and 
+monitor multiple tasks. The extension triggers an alert after a 
+25-minute timer to maintain focus during work intervals
 
 ## Table of Contents
 - [Features](#features)
 - [Installation](#installation)
-- [How to Use](#how-to-use)
-- [Screenshots](#screenshots)
-- [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
 
 ## Features
@@ -24,17 +24,6 @@ A simple yet powerful Chrome extension to boost productivity and help users stay
 1. **Clone or Download** this repository:
    ```bash
    git clone https://github.com/sumitprajapati1/Chrome-Timer-Extension.git
-
-## Screenshots
-![Screenshot](C:\Users\LENOVO\Downloads\screenshot.png)
-
-### How to Use It:
-1. Create or open your `README.md` file in the project directory.
-2. Copy the above content and paste it into the file.
-3. Customize any placeholders (e.g., image paths, screenshots, contact info).
-4. Save the file and push it to your GitHub repository .
-
-
 
 ## Project Structure
 
